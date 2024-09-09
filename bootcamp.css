@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.InnerContent{
+    flex: none;
+    width: 80%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.descript{
+    font-size: 20px;
+    font-family: DFKai-sb;
+}
