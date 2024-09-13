@@ -14,6 +14,9 @@ h1{
     text-align: center;
 }
 
+.btn{
+    cursor: pointer;
+}
 body{
     background-color: antiquewhite;
 }
