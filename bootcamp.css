@@ -48,9 +48,10 @@ body{
     text-align: justify; /** 使文字左右對齊 **/
 }
 
+
 @media (max-width:450px){
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .item{
@@ -59,6 +60,13 @@ body{
     .InnerContent{
         width: 90%;
     }
-        
-    
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }   
+    .title{
+        font-size: 24px;
+    }
 }
