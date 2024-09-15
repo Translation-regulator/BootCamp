@@ -51,13 +51,12 @@ body{
 
 @media (max-width:768px){
     h1{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .item{
         font-size: 20px;
     }
-
     .InnerContent{
         width: 90%;
     }
