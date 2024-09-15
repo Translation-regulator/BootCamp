@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     font-size: 50px;
+    text-shadow: 2px 2px 5px red;
 }
 
 .list{
@@ -8,10 +9,11 @@ h1{
     justify-content: center;
     border-bottom-style:solid ;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .item{
     width: 150px;
-    margin: 5px;
+    margin: 10px;
     background-color: aqua;
     text-align: center;
     border-radius: 10px;
@@ -21,6 +23,7 @@ h1{
 .btn{
     cursor: pointer;
     
+    
 }
 body{
     background-color: rgb(240, 240, 231);
@@ -29,11 +32,14 @@ body{
 .content{
     display: flex;
     justify-content: center;
+
 }
 
 .InnerContent{
     flex: none;
     width: 60%;
+    padding: 3%;
+
 }
 
 .title{
@@ -43,7 +49,7 @@ body{
 
 .descript{
     font-size: 24px;
-    font-family: DFKai-sb;
+    font-family: 'Times New Roman', Times, serif,DFKai-sb;
     line-height: 40px;
     text-align: justify; /** 使文字左右對齊 **/
 }
