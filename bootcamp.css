@@ -49,9 +49,9 @@ body{
 }
 
 
-@media (max-width:450px){
+@media (max-width:768px){
     h1{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .item{
@@ -60,13 +60,9 @@ body{
     .InnerContent{
         width: 90%;
     }
-    .desktop{
-        display: none;
-    }
-    .mobile{
-        display: block;
-    }   
+
     .title{
         font-size: 24px;
     }
 }
+
