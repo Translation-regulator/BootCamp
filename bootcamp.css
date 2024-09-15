@@ -6,19 +6,23 @@ h1{
 .list{
     display: flex;
     justify-content: center;
+    border-bottom-style:solid ;
 }
 .item{
-    width: 100px;
+    width: 150px;
     margin: 5px;
     background-color: aqua;
     text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
 }
 
 .btn{
     cursor: pointer;
+    
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 231);
 }
 
 .content{
@@ -28,15 +32,16 @@ body{
 
 .InnerContent{
     flex: none;
-    width: 80%;
+    width: 60%;
 }
 
 .title{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .descript{
-    font-size: 20px;
+    font-size: 24px;
     font-family: DFKai-sb;
+    
 }
