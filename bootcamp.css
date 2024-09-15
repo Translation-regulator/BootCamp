@@ -47,3 +47,18 @@ body{
     line-height: 40px;
     text-align: justify; /** 使文字左右對齊 **/
 }
+
+@media (max-width:450px){
+    h1{
+        font-size: 20px;
+    }
+
+    .item{
+        font-size: 20px;
+    }
+    .InnerContent{
+        width: 90%;
+    }
+        
+    
+}
