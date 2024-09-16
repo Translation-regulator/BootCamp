@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px rgb(250, 140, 5);
 }
 
 .list{
@@ -10,6 +10,7 @@ h1{
     border-bottom-style:solid ;
     margin-bottom: 15px;
     padding: 10px;
+
 }
 .item{
     width: 150px;
@@ -18,13 +19,10 @@ h1{
     text-align: center;
     border-radius: 10px;
     font-size: 30px;
-}
-
-.btn{
     cursor: pointer;
-    
-    
 }
+ 
+    
 body{
     background-color: rgb(240, 240, 231);
 }
@@ -32,7 +30,7 @@ body{
 .content{
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 .InnerContent{
@@ -45,7 +43,7 @@ body{
 .image{
     flex:none; width:20%;
     padding-top: 5%;
-    
+
 }
 
 .rightbox{
@@ -72,6 +70,10 @@ body{
     h1.mobile{
         display: none;
     }
+    .image{
+        display:flax;justify-content: center;
+
+    }
 
 }
 
@@ -96,6 +98,13 @@ body{
     }
     h1.mobile{
         display: block;
+    }
+    .image{
+        flex:none; width:100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0%;
+
     }
 
 }

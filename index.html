@@ -30,7 +30,7 @@
     >其他</nav>
 </div>
 <div class="content">
-<div class="image"><img src="head.jpg" ait="大頭照" style="float:right;width:150px;height:200px;"></div>
+<div class="image"><img src="head.jpg" ait="大頭照" style="flex:none; width:150px;height:200px;"></div>
 <main class="InnerContent">
 
 <div id="introduction">
@@ -80,30 +80,36 @@
         function ChangeToIntroduction() {
             // 先取得要操作的標籤
             let introductionDiv=document.querySelector("#introduction");
+            let imgDiv=document.querySelector("img");
             let planDiv=document.querySelector("#plan");
             let otherDiv=document.querySelector("#other");
             // 在對標籤做操作
             introductionDiv.style.display="block"
+            imgDiv.style.display="block"
             planDiv.style.display="none"
             otherDiv.style.display="none"
         };
         function ChangeTopPlan() {
             // 先取得要操作的標籤
             let introductionDiv=document.querySelector("#introduction");
+            let imgDiv=document.querySelector("img");
             let planDiv=document.querySelector("#plan");
             let otherDiv=document.querySelector("#other");
             // 在對標籤做操作
             introductionDiv.style.display="none"
+            imgDiv.style.display="none"
             planDiv.style.display="block"
             otherDiv.style.display="none"
         };
         function ChangeToOther() {
             // 先取得要操作的標籤
             let introductionDiv=document.querySelector("#introduction");
+            let imgDiv=document.querySelector("img");
             let planDiv=document.querySelector("#plan");
             let otherDiv=document.querySelector("#other");
             // 在對標籤做操作
             introductionDiv.style.display="none"
+            imgDiv.style.display="none"
             planDiv.style.display="none"
             otherDiv.style.display="block"
         };
